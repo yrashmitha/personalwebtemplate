@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>John Smith</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <!--<script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>-->
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+<section class="container-fluid hero-container">
+
+
+    <section id="hero" class="vh-100 min-vh-100 main-section">
+        <nav class="navbar navbar-expand-lg navbar-light nav fixed-top <!--text-lg-center justify-content-lg-center align-content-lg-center-->">
+            <a class="navbar-brand" href="#">John Smith</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse <!--justify-content-lg-center-->" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            What's Going On
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" onclick="$('#about-me').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})" href="#">About Me</a>
+                            <a class="dropdown-item" onclick="$('#portfolio').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})" href="#">Portfolio</a>
+                            <a class="dropdown-item" onclick="$('#services').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})" href="#">Services</a>
+                            <a class="dropdown-item" onclick="$('#contact').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})" href="#">Let's Talk</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section class="squares square1"></section>
+        <section class="squares square2"></section>
+        <section class="squares square3"></section>
+        <section class="squares square4"></section>
+        <section class="squares square5"></section>
+        <section class="squares square6"></section>
+        <section class="squares square7"></section>
+
+        <section class="row vh-100">
+            <section class="col-12 d-flex flex-column justify-content-center align-content-center text-center text-wrap ">
+                <img src="img/hero.jpg" class="rounded-circle" alt="" id="hero-img">
+                <h1 class="font-weight-lighter">Hey It's Me</h1>
+                <h1 class="font-weight-bolder">John Smith</h1>
+            </section>
+
+
+            <a class="scroll-link1" onclick="$('#about-me').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})">
+                <svg class="mouse" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76 130" preserveAspectRatio="xMidYMid meet">
+                    <g fill="none" fill-rule="evenodd">
+                        <rect width="70" height="118" x="1.5" y="1.5" stroke="#FFF" stroke-width="3" rx="36"/>
+                        <circle class="scroll" cx="36.5" cy="31.5" r="4.5" fill="#FFF"/>
+                    </g>
+                </svg>
+            </a>
+
+        </section>
+
+    </section>
+
+    <section id="about-me" class="container-fluid vh-100 min-vh-100 main-section">
+        <!--<img src="css/path2.png" alt="" class="paths">-->
+
+        <section id="about-details-wrapper" class="container flex-column d-flex justify-content-center h-100">
+            <section id="about-me-title" class="row">
+                <section class="col-12 text-center">
+                    <h1 class="font-weight-light hvr-underline-from-left">About Me</h1>
+                    <p class="font-weight-lighter">In a few words,I promise</p>
+                    <div class="dropdown-divider divider"></div>
+
+                </section>
+            </section>
+                <section class="row">
+                    <section id="left" class="col-12 col-sm-12 col-md-7 col-lg-7 col-xl-7 ">
+                        <section id="data" class="justify-content-center align-content-center d-flex flex-wrap text-wrap flex-column">
+                            <h1>John Smith</h1>
+                            <h3 id="about-job">Web Developer/Freelancer/Photographer</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, adipisci aliquam at, autem
+                                consequuntur cupiditate doloremque dolorum eaque enim, ex facilis modi mollitia numquam
+                                odit quaerat quasi vel voluptate? Aliquid?</p>
+                            <section id="button" class="row">
+                                <section id="button-left" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <button type="button" onclick="$('#portfolio').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})"  class="btn btn-primary button">My Work</button>
+
+                                </section>
+                                <section id="button-right" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                                    <button type="button" class="btn btn-primary button">My CV</button>
+
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                    <section id="right" class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5">
+                        <img src="css/blur-building-eyes-720330.jpg" class="img-thumbnail rounded" alt="">
+                    </section>
+                </section>
+        </section>
+    </section>
+
+    <section id="portfolio" class=" container-fluid main-section min-vh-100">
+        <section id="portfolio-wrapper" class="container">
+
+            <section id="portfolio-title-row" class="row margin-row">
+                <section id="portfolio-title" class="col-12 text-center">
+                    <h1 class="text-uppercase font-weight-light hvr-underline-from-left">portfolio</h1>
+                    <p class="font-weight-lighter">Here's what I've done so far</p>
+                    <div class="dropdown-divider divider"></div>
+
+                </section>
+            </section>
+
+            <section id="portfolio-projects1-row" class="row margin-row">
+                <section id="portfolio-projects-left" class="col-12 col-sm-12 col-md-6 col-lg-6=4 col-xl-4">
+                    <img src="css/branch-dew-green-632180.jpg"  alt="" class="img-thumbnail rounded mb-4">
+                </section>
+                <section id="portfolio-projects-right" class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 hvr-float">
+                    <section id="projects1-data" class="d-flex flex-column flex-wrap text-wrap">
+                        <a href=""><h2 class="portfolio-main">Rainy Image Gallery</h2></a>
+                        <h3 class="portfolio-sub">Photography Life</h3>
+                        <h5 class="portfolio-location">Badulla Sri Lanka</h5>
+                        <p class="portfolio-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem omnis quod repellendus
+                            veritatis. Aliquam doloribus error natus nemo pariatur veritatis, vero voluptas voluptatum.
+                            Dolor dolores numquam odit saepe velit!</p>
+                    </section>
+                </section>
+            </section>
+
+            <section id="portfolio-projects2-row" class="row margin-row">
+                <section id="portfolio-projects2-left" class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <img src="css/attractive-beautiful-blurred-background-789296.jpg"  alt="" class="img-thumbnail rounded mb-4">
+                </section>
+                <section id="portfolio-projects2-right" class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 hvr-float">
+                    <section id="projects2-data" class="d-flex flex-column flex-wrap text-wrap">
+                        <a href=""><h2 class="portfolio-main">Feel It!</h2></a>
+                        <h3 class="portfolio-sub">Photography Life</h3>
+                        <h5 class="portfolio-location">Kandy Sri Lanka</h5>
+                        <p class="portfolio-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem omnis quod repellendus
+                            veritatis. Aliquam doloribus error natus nemo pariatur veritatis, vero voluptas voluptatum.
+                            Dolor dolores numquam odit saepe velit!</p>
+                    </section>
+                </section>
+            </section>
+
+            <section id="portfolio-projects3-row" class="row margin-row">
+                <section id="portfolio-projects3-left" class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <img src="css/asia-bald-blur-234541.jpg"  alt="" class="img-thumbnail rounded mb-4">
+                </section>
+                <section id="portfolio-projects3-right" class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 hvr-float">
+                    <section id="projects3-data" class="d-flex flex-column flex-wrap text-wrap">
+                        <a href=""><h2 class="portfolio-main">Asia</h2></a>
+                        <h3 class="portfolio-sub">Photography Life</h3>
+                        <h5 class="portfolio-location">Sri Lanka</h5>
+                        <p class="portfolio-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem omnis quod repellendus
+                            veritatis. Aliquam doloribus error natus nemo pariatur veritatis, vero voluptas voluptatum.
+                            Dolor dolores numquam odit saepe velit!</p>
+                    </section>
+                </section>
+            </section>
+
+            <section id="portfolio-projects4-row" class="row margin-row">
+                <section id="portfolio-projects4-left" class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                    <img src="css/desk-device-google-wifi-1054553.jpg"  alt="" class="img-thumbnail rounded mb-4">
+                </section>
+                <section id="portfolio-projects4-right" class="col-12 col-sm-12 col-md-6 col-lg-8 col-xl-8 hvr-float">
+                    <section id="projects4-data" class="d-flex flex-column flex-wrap text-wrap">
+                        <a href=""><h2 class="portfolio-main">Google Home</h2></a>
+                        <h3 class="portfolio-sub">Programming Life</h3>
+                        <h5 class="portfolio-location">Australia</h5>
+                        <p class="portfolio-para">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dolorem omnis quod repellendus
+                            veritatis. Aliquam doloribus error natus nemo pariatur veritatis, vero voluptas voluptatum.
+                            Dolor dolores numquam odit saepe velit!</p>
+                    </section>
+                </section>
+            </section>
+
+        </section>
+    </section>
+
+    <section id="services" class="container-fluid vh-100 main-section min-vh-100 ">
+        <section id="services-wrapper" class="container d-flex flex-column text-wrap h-100 align-content-center justify-content-center">
+            <section id="servises-title-row" class="row">
+                <section id="servises-title" class="col-12 text-center">
+                    <h2 class="font-weight-light text-uppercase hvr-underline-from-left">services</h2>
+                    <p class="font-weight-lighter">What I can Offer for You</p>
+                    <div class="dropdown-divider divider"></div>
+                </section>
+            </section>
+
+            <section id="services-cards-row" class="row">
+                <section id="service1" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 d-flex flex-column text-wrap text-center border-info">
+                    <i class="fas fa-code fa-5x mx-auto svg"></i>
+                    <h4>Web Development</h4>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ex harum labore officiis quod!
+                        Ab alias atque dolore, ducimus enim natus nesciunt placeat porro quas quidem quisquam rem, totam
+                        veritatis.</p>
+                </section>
+                <section id="service2" class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3  d-flex flex-column text-wrap text-center">
+                    <i class="fas fa-image fa-5x mx-auto svg"></i>
+                    <h4>Photography</h4>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ex harum labore officiis quod!
+                        Ab alias atque dolore, ducimus enim natus nesciunt placeat porro quas quidem quisquam rem, totam
+                        veritatis.</p>
+                </section>
+                <section id="service3" class="d-flex flex-column text-wrap text-center col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+                    <i class="fas fa-video fa-5x mx-auto svg"></i>
+                    <h4>Video Editing</h4>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ex harum labore officiis quod!
+                        Ab alias atque dolore, ducimus enim natus nesciunt placeat porro quas quidem quisquam rem, totam
+                        veritatis.</p>
+                </section>
+                <section id="service4" class="d-flex flex-column text-wrap text-center col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 ">
+                    <i class="fas fa-tasks fa-5x mx-auto svg"></i>
+                    <h4>Project Management</h4>
+                    <p class="font-weight-lighter">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ex harum labore officiis quod!
+                        Ab alias atque dolore, ducimus enim natus nesciunt placeat porro quas quidem quisquam rem, totam
+                        veritatis.</p>
+                </section>
+            </section>
+        </section>
+
+    </section>
+
+    <section id="fixed" class="vh-100 container-fluid">
+        <section id="fixed-content" class="container h-100 justify-content-center align-content-center d-flex flex-column text-wrap text-center">
+            <h1 class="font-weight-bolder" id="fixed-title">I'm accepting custom orders</h1>
+            <section>
+                <button id="fixed-hire-btn" type="button" class="btn btn-primary button w-25" onclick="$('#contact').animatescroll({scrollSpeed:2000,easing:'easeInOutBack'})">Hire Me</button>
+            </section>
+
+        </section>
+    </section>
+
+    <section id="contact" class="container-fluid vh-100">
+        <section id="contact-wrapper" class="container flex-column d-flex justify-content-center h-100">
+            <section id="contact-row-title" class="row">
+                <section class="col-12 text-center" id="contact-title">
+                    <h2 class="text-uppercase hvr-underline-from-left font-weight-light">Let's Talk</h2>
+                    <div class="dropdown-divider divider"></div>
+                </section>
+            </section>
+
+            <section id="contact-both" class="row">
+                <section id="left" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-flex flex-column flex-wrap text-center justify-content-center align-content-center h-100">
+                    <section class="text-center">
+                        <i class="fas fa-map-marked-alt text-center fa-5x"></i>
+                        <h4 class="font-weight-lighter">Kandana,Sri Lanka</h4>
+                    </section>
+                    <section class="text-center">
+                        <i class="fas fa-phone-square-alt fa-5x"></i>
+                        <h4 class="font-weight-lighter">+94 776891125</h4>
+                    </section>
+                    <section class="text-center">
+                        <i class="fas fa-envelope-open-text fa-5x"></i>
+                        <h4 class="font-weight-lighter">john.smith@gmail.com</h4>
+                    </section>
+
+                </section>
+
+                <section id="contact-right" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <!--<title>Let's Talk</title>-->
+                    <form class="form-horizontal"  method="post" action="send_mail.php">
+                        <fieldset>
+
+                            <!-- Form Name -->
+                            <!--<legend>Let's Talk</legend>-->
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="first_name">Name</label>
+                                <div class="col-md-4 contact-div-width">
+                                    <input id="first_name" name="first_name" type="text" placeholder="Name" class="in form-control input-md button3" required="">
+
+                                </div>
+                            </div>
+
+                            <!-- Text input-->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="email_address">E-mail</label>
+                                <div class="col-md-4 contact-div-width">
+                                    <input id="email_address" name="email_address" type="text" placeholder="E-mail" class="in button3 form-control input-md" required="">
+
+                                </div>
+                            </div>
+
+                            <!-- Textarea -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="comments">Your Message</label>
+                                <div class="col-md-4 contact-div-width">
+                                    <textarea class="form-control button3 in" id="comments" name="comments" maxlength="500">Your Message</textarea>
+                                </div>
+                            </div>
+
+                            <!-- Button -->
+                            <div class="form-group">
+                                <label class="col-md-4 control-label" for="singlebutton"></label>
+                                <div class="col-md-4 contact-div-width">
+                                    <button id="singlebutton" name="singlebutton" class="btn btn-primary button">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+
+            </section>
+
+            <!--<section id="contact-right" class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">-->
+
+
+            </section>
+
+        </section>
+
+    <section id="footer" class="container-fluid">
+        <section class="container text-center d-flex flex-column text-center">
+            <section class="d-flex flex-row text-center align-content-center justify-content-center">
+                <a href=""><i class="fab fa-facebook-f text-decoration-none mr-3"></i></a>
+                <a href=""><i class="fab fa-instagram mr-3"></i></a>
+                <a href=""> <i class="fab fa-twitter mr-3"></i></a>
+                <a href=""> <i class="fab fa-linkedin-in mr-3"></i></a>
+                <a href=""><i class="fab fa-github mr-3"></i></a>
+            </section>
+            <p class="font-weight-bolder">Designed and Developed by HelaWeb Design</p>
+        </section>
+    </section>
+
+
+
+    </section>
+
+
+
+</section>
+
+
+
+
+
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/all.min.js"></script>
+<script src="js/animatescroll.min.js"></script>
+<script src="js/controller.js"></script>
+
+</body>
+</html>
